@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glass card style */
+.glass-card {
+  @apply bg-white/10 dark:bg-slate-800/50 backdrop-blur-lg rounded-xl border border-white/10;
+}
